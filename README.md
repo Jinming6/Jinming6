@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on Qingdao
 - 🌱 I’m currently learning NestJS
 - 📫 How to reach me: response965@163.com
