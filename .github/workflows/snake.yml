@@ -39,6 +39,10 @@ jobs:
     steps:
       - name: Chekcout 🛎️
         uses: actions/checkout@master
+      - name: "PNPM"
+        uses: pnpm/action-setup@v3
+        with:
+            version: 8
       - name: Append Juejin Posts List 🔧
         run: |
           pnpm install
