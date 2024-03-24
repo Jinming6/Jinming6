@@ -36,6 +36,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
   juejin-posts:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Chekcout 🛎️
         uses: actions/checkout@master
@@ -52,5 +54,3 @@ jobs:
         with:
           default_author: github_actions
           message: "render renderPosts"
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
