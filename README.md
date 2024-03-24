@@ -1,6 +1,6 @@
 <p align="center">
   <h1 height="200px" align="center">
-    Hi there <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25">, I'm Jinming6
+    Hi <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25">, I'm Jinming6
   </h1>
    <p align="center">A coder 👨‍💻</p>
 </p>
