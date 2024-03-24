@@ -39,7 +39,7 @@ jobs:
     steps:
       - name: Chekcout 🛎️
         uses: actions/checkout@master
-      - name: "PNPM"
+      - name: Use pnpm
         uses: pnpm/action-setup@v3
         with:
             version: 8
@@ -52,3 +52,5 @@ jobs:
         with:
           default_author: github_actions
           message: "render renderPosts"
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
