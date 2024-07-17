@@ -34,23 +34,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-  juejin-posts:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Chekcout 🛎️
-        uses: actions/checkout@master
-      - name: Use pnpm
-        uses: pnpm/action-setup@v3
-        with:
-            version: 8
-      - name: Append Juejin Posts List 🔧
-        run: |
-          pnpm install
-          node ./renderPosts.mjs
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v9
-        with:
-          default_author: github_actions
-          message: "render renderPosts"

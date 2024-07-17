@@ -39,14 +39,3 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jinming6/Jinming6/output/github-contribution-grid-snake.svg" />
   <img width="100%" alt="github-snake" src="https://raw.githubusercontent.com/Jinming6/Jinming6/output/github-contribution-grid-snake.svg" />
 </picture>
-
-<br />
-<br />
-
-<h2 align="center">📝 Recently released</h2>
-<br />
-
-<!-- posts start -->
-<ul>
-</ul>
-<!-- posts end -->
